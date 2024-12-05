@@ -1,0 +1,19 @@
+/*html,
+.body-services {
+  margin: 0;
+  padding: 0;
+}*/
+
+.body-services {
+  background-color: #31102F;
+  background: radial-gradient(ellipse at center, #7b5f79 0%, #280b29 100%);
+}
+
+#stars {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 16rem;
+  height: 100vh;
+  z-index: 1;
+}

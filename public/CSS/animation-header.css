@@ -1,0 +1,478 @@
+
+.write {
+   height: 100%;
+   transition: 0.5s;
+}
+.text-write{
+  height: 25vh;
+}
+
+.write h1 {
+  font-size: 70px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-top: 40vh;
+  transition: 0.5s;
+}
+
+.write h1:after {
+  content: "";
+  animation: abomination1 2.2s linear 1;
+  animation-fill-mode: forwards;
+  text-transform: uppercase;
+  animation-delay: 0.5s;
+  transition: 0.5s;
+}
+
+
+  @keyframes abomination1 {
+  0% {
+    content: "C";
+  }
+  4% {
+    content: "Cr";
+  }
+  8% {
+    content: "Cré";
+  }
+  12% {
+    content: "Créa";
+  }
+  16% {
+    content: "Créat";
+  }
+  20% {
+    content: "Créati";
+  }
+  24% {
+    content: "Créatio";
+  }
+  28% {
+    content: "Création";
+  }
+  32% {
+    content: "Création d";
+  }
+  36% {
+    content: "Création de";
+  }
+  40% {
+    content: "Création de ";
+  }
+  44% {
+    content: "Création de s";
+  }
+  48% {
+    content: "Création de si";
+  }
+  52% {
+    content: "Création de sit";
+  }
+  56% {
+    content: "Création de sites";
+  }
+  60% {
+    content: "Création de sites ";
+  }
+  64% {
+    content: "Création de sites w";
+  }
+  68% {
+    content: "Création de sites we ";
+  }
+  72% {
+    content: "Création de sites web";
+  }
+  76% {
+    content: "Création de sites web";
+  }
+  80% {
+    content: "Création de sites web";
+  }
+  84% {
+    content: "Création de sites web";
+  }
+  88% {
+    content: "Création de sites web";
+  }
+  92% {
+    content: "Création de sites web";
+  }
+  96% {
+    content: "Création de sites web";
+  }
+  100% {
+    content: "Création de sites web";
+  }
+}
+
+.write .span1 {
+  text-align: center;
+  /*color: rgba(43, 201, 154, 0.8);*/
+  color: rgba(230, 222, 215, 1.0);
+  font-size: 46px;
+}
+
+.write .span1:after {
+  content: "";
+  animation: abomination2 2.5s linear 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.1s;
+}
+
+  @keyframes abomination2 {
+  0% {
+    content: "S";
+  }
+  4% {
+    content: "Si";
+  }
+  8% {
+    content: "Sit";
+  }
+  12% {
+    content: "Site";
+  }
+  16% {
+    content: "Site ";
+  }
+  20% {
+    content: "Site v";
+  }
+  24% {
+    content: "Site vi";
+  }
+  28% {
+    content: "Site vit";
+  }
+  32% {
+    content: "Site vitr";
+  }
+  36% {
+    content: "Site vitri";
+  }
+  40% {
+    content: "Site vitrin";
+  }
+  44% {
+    content: "Site vitrine"
+  }
+  48% {
+    content: "Site vitrine,";
+  }
+  52% {
+    content: "Site vitrine, ";
+  }
+  56% {
+    content: "Site vitrine, c";
+  }
+  60% {
+    content: "Site vitrine, co";
+  }
+  64% {
+    content: "Site vitrine, cor";
+  }
+  68% {
+    content: "Site vitrine, corp";
+  }
+  72% {
+    content: "Site vitrine, corpo";
+  }
+  76% {
+    content: "Site vitrine, corpor";
+  }
+  80% {
+    content: "Site vitrine, corpora";
+  }
+  84% {
+    content: "Site vitrine, corporat";
+  }
+  88% {
+    content: "Site vitrine, corporate";
+  }
+  92% {
+    content: "Site vitrine, corporate";
+  }
+  96% {
+    content: "Site vitrine, corporate";
+  }
+  100% {
+    content: "Site vitrine, corporate";
+  }
+}
+
+.write .span2 {
+  font-size: 70px;
+  text-align: center;
+  vertical-align: middle;
+  /*color: rgba(43, 201, 154, 0.8);*/
+  color: rgba(230, 222, 215, 1.0);
+  font-size: 50px;
+}
+
+.write .span2:after {
+  content: "";
+  animation: abomination3 2.5s linear 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+}
+
+ @keyframes abomination3 {
+  0% {
+    content: ", e";
+  }
+  4% {
+    content: ", e-";
+  }
+  8% {
+    content: ", e-c";
+  }
+  12% {
+    content: ", e-co";
+  }
+  16% {
+    content: ", e-com";
+  }
+  20% {
+    content: ", e-comm";
+  }
+  24% {
+    content: ", e-comme";
+  }
+  28% {
+    content: ", e-commer";
+  }
+  32% {
+    content: ", e-commerc";
+  }
+  36% {
+    content: ", e-commerce";
+  }
+  40% {
+    content: ", e-commerce";
+  }
+  44% {
+    content: ", e-commerce"
+  }
+  48% {
+    content: ", e-commerce";
+  }
+  52% {
+    content: ", e-commerce";
+  }
+  56% {
+    content: ", e-commerce";
+  }
+  60% {
+    content: ", e-commerce";
+  }
+  64% {
+    content: ", e-commerce";
+  }
+  68% {
+    content: ", e-commerce";
+  }
+  72% {
+    content: ", e-commerce";
+  }
+  76% {
+    content: ", e-commerce";
+  }
+  80% {
+    content: ", e-commerce";
+  }
+  84% {
+    content: ", e-commerce";
+  }
+  88% {
+    content: ", e-commerce";
+  }
+  92% {
+    content: ", e-commerce";
+  }
+  96% {
+    content: ", e-commerce";
+  }
+  100% {
+    content: ", e-commerce";
+  }
+}
+
+
+          /* RESPONSIVE */
+
+@media screen and (min-width:701px) and (max-width:890px){
+
+  .write {
+    transition: 1s;
+  }
+
+  .text-write{
+    height: 25vh !important;
+  }
+
+  .write h1 {
+    font-size: 60px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 35vh;
+    transition: 1s;
+  }
+
+    .write .span1 {
+    text-align: center;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 40px !important;
+  }
+
+    .write .span2 {
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 40px !important;
+  }
+
+}
+
+
+@media screen and (min-width:500px) and (max-width:700px){
+
+    .write {
+    transition: 1s;
+  }
+
+  .text-write{
+    height: 25vh !important;
+  }
+
+  .write h1 {
+    font-size: 45px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 35vh;
+    transition: 1s;
+  }
+
+    .write .span1 {
+    text-align: center;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 30px !important;
+  }
+
+    .write .span2 {
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 30px !important;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:400px) and (max-width:500px){
+
+  .write {
+    transition: 1s;
+  }
+
+  .text-write{
+    height: 25vh !important;
+  }
+
+  .write h1 {
+    font-size: 35px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 35vh;
+    transition: 1s;
+  }
+
+    .write .span1 {
+    text-align: center;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 25px !important;
+  }
+
+    .write .span2 {
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:400px){
+
+  .write {
+    /*height: 55vh !important;*/
+    transition: 1s;
+  }
+
+  .write h1 {
+    font-size: 32px ;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 48vh !important;
+    transition: 1s;
+  }
+
+    .write .span1 {
+    text-align: center;
+    /*color: rgba(43, 201, 154, 0.8);*/
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 22px;
+  }
+
+    .write .span2 {
+    text-align: center;
+    vertical-align: middle;
+    /*color: rgba(43, 201, 154, 0.8);*/
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 22px !important;
+  }
+
+}
+
+
+@media screen and (max-width:319px){
+  .write {
+    transition: 1s;
+  }
+
+  .text-write{
+    height: 20vh !important;
+  }
+
+  .write h1 {
+    font-size: 30px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 35vh;
+    transition: 1s;
+  }
+
+    .write .span1 {
+    text-align: center;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 20px !important;
+  }
+
+    .write .span2 {
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 222, 215, 1.0);
+    font-size: 20px !important;
+  }
+}
+
+
+
+

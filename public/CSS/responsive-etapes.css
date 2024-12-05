@@ -1,0 +1,111 @@
+/* ETAPES PAR ETAPES */
+
+@media screen and (min-width:100px) and (max-width:500px){
+	
+
+	main .bg-main-img{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		width: 100%;
+		height: 100% !important;
+	}
+	main .bg-main-cover{
+		background-color: rgba(24, 25, 50, 0.6);
+		background-color: rgba(43, 201, 154, 0.5);
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 2;
+		height: 100% !important;
+	}
+
+	.etapes h5 span{
+	  font-size: 6vw;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: white;
+	  padding-bottom: 30px;
+	}
+
+	.etapes h5 span:after {
+	  content: "";
+	  animation: abomination4 2.2s linear 1;
+	  animation-fill-mode: forwards;
+	  text-transform: uppercase;
+	}
+
+	.etapes h4 span{
+	  font-size: 5.5vw;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: white;
+	}
+
+	.etapes h4 span:after {
+	  content: "";
+	  animation: abomination5 2.2s linear 1;
+	  animation-fill-mode: forwards;
+	  text-transform: uppercase;
+	  animation-delay: 2.4s;
+	  text-align: center;
+	}
+
+	
+
+}
+
+
+
+
+@media screen and (min-width:500px) and (max-width:700px){
+	
+
+	main .bg-main-img{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		width: 100%;
+		height: 100% !important;
+	}
+	main .bg-main-cover{
+		background-color: rgba(24, 25, 50, 0.6);
+		background-color: rgba(43, 201, 154, 0.5);
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 2;
+		height: 100% !important;
+	}
+
+	.etapes h5 span{
+	  font-size: 6vw;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: white;
+	  padding-bottom: 30px;
+	}
+
+	.etapes h5 span:after {
+	  content: "";
+	  animation: abomination4 2.2s linear 1;
+	  animation-fill-mode: forwards;
+	  text-transform: uppercase;
+	}
+
+	.etapes h4 span{
+	  font-size: 5.5vw;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: white;
+	}
+
+	.etapes h4 span:after {
+	  content: "";
+	  animation: abomination5 2.2s linear 1;
+	  animation-fill-mode: forwards;
+	  text-transform: uppercase;
+	  animation-delay: 2.4s;
+	  text-align: center;
+	}
+	
+	
+}

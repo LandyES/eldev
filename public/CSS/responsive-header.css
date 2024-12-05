@@ -1,0 +1,158 @@
+				
+			/* RESPONSIVE TELEPHONE */
+
+/*@media screen and (min-width:890px) and (max-width:2000px){
+	body{
+		transition: 1s;
+		min-width: 125vw !important;
+	}
+
+	header{
+		height: 100% !important;
+		padding: 90px 0px 100px 0px !important;
+	}
+	.down img{
+		width: 8vw;
+		animation: shakeY;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		margin-top: 20px !important;
+	}
+}*/
+
+@media screen and (min-width:700px) and (max-width:1100px){
+	body{
+		transition: 1s;
+		min-width: 125vw !important;
+	}
+
+	header{
+		height: 100% !important;
+		padding: 90px 0px 100px 0px !important;
+	}
+	.down img{
+		width: 6vw;
+		animation: shakeY;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		margin-top: 20px !important;
+	}
+}
+
+
+@media screen and (min-width:500px) and (max-width:700px){
+	body{
+		transition: 1s;
+		min-width: 125vw !important;
+	}
+
+	header{
+		height: 100% !important;
+		padding: 90px 0px 100px 0px !important;
+	}
+	.down img{
+		width: 6vw;
+		animation: shakeY;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		margin-top: 20px !important;
+	}
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:500px){
+
+	body{
+		transition: 1s;
+		min-width: 115vw !important;
+	}
+
+	header{
+		height: 100% !important;
+		padding: 90px 0px 100px 0px !important;
+	}
+								
+
+
+	.header-button button{
+		padding: 17px 30px 17px 30px;
+		border-radius: 2px;
+		border: none;
+		margin-top: 0px !important;
+		font-weight: bold;
+		font-size: 22px;
+		background-color: #00ff00;
+		animation: none;
+	}
+	.header-button button:hover{
+		animation: none;
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+		transition: 0.2s;
+		cursor: pointer;
+	}
+
+
+				/* */
+	.down img{
+		width: 8vw;
+		animation: shakeY;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		margin-top: 20px !important;
+	}
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:400px){
+
+
+	header{
+		height: 100% !important;
+		padding: 0px 0px 100px 0px !important;
+	}
+
+}
+
+@media screen and (max-width:319px){
+	body{
+		transition: 1s;
+		min-width: 160vw !important;
+	}
+
+	header{
+		height: 100% !important;
+		padding: 90px 0px 100px 0px !important;
+	}
+
+	.header-button button{
+		padding: 17px 30px 17px 30px;
+		border-radius: 2px;
+		border: none;
+		margin-top: 0px !important;
+		font-weight: bold;
+		font-size: 17px !important;
+		background-color: #00ff00;
+		animation: none;
+	}
+	.header-button button:hover{
+		animation: none;
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+		transition: 0.2s;
+		cursor: pointer;
+	}
+
+	.down img{
+		width: 6vw;
+		animation: shakeY;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		margin-top: 20px !important;
+	}
+
+}

@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /*background-color: #f0f0f0;*/ /* Optionnel, pour le contraste */
+    background-color: transparent;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Ajustez la taille selon vos besoins */
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: ;
+    /*background-color: rgba(5, 214, 238, 1.0);*/
+    /*background-color: rgba(1, 168, 114, 1.0); green*/
+    /*background-color: rgba(5, 214, 238, 1.0);*/
+    background-color: black;
+    /*border-left-radius: 50%;*/
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    /*border: 3px solid rgba(5, 214, 238, 1.0);*/ /* Ajout d'un contour jaune */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-contain{
+    /*background-color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;*/
+    /*padding: 1px 1px 6px 1px;*/
+}
+.circle p{
+    /*color: rgba(1, 168, 114, 1.0);*/
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Times New Roman, sans-serif;
+}
+
+/*.star {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid green; 
+    border-top: 10px solid green;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+.star::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid green;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}*/
+
+
+
+
+/* Étoile */
+.star {
+    position: relative;
+    display: block;
+    color: #ff8c00; /* Orange */
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ff8c00; /* Orange */
+    border-left: 50px solid transparent;
+    transform: rotate(35deg);
+}
+
+.star:before {
+    border-bottom: 40px solid #ff8c00; /* Orange */
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -23px;
+    left: -50px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+.star:after {
+    position: absolute;
+    display: block;
+    color: #ff8c00; /* Orange */
+    top: 3px;
+    left: -81px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ff8c00; /* Orange */
+    border-left: 50px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}

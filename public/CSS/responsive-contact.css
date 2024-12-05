@@ -1,0 +1,38 @@
+
+
+@media screen and (min-width:500px) and (max-width:768px){
+
+	.contact h1 {
+	    text-align: center;
+	    margin-bottom: 50px;
+	    font-size: 2rem !important;
+	    /*color: #00ff00;*/
+	    color: white;
+	}
+	.contact-info {
+	    background-color: #121212;
+	    padding: 60px 30px 60px 30px !important;
+	    border-radius: 10px;
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+}
+
+
+@media screen and (min-width:100px) and (max-width:500px){
+
+	.contact h1 {
+	    text-align: center;
+	    margin-bottom: 50px;
+	    font-size: 2rem !important;
+	    /*color: #00ff00;*/
+	    color: white;
+	}
+	.contact-info {
+	    background-color: #121212;
+	    padding: 60px 30px 60px 30px !important;
+	    border-radius: 10px;
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+}
