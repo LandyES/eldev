@@ -65,7 +65,7 @@
 
 	body{
 		transition: 1s;
-		min-width: 115vw !important;
+		/*min-width: 115vw !important;*/
 	}
 
 	header{
